@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-01-04T22:51:25.780727+01:00 by Eclipse SUMO netedit v1_25_0+0747-f63642a8a4b
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="bus" vClass="bus"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="bf_0" type="bus" begin="0.00" end="3600.00" period="60" from="C0C1" to="C4C5"/>
+    <flow id="bf_1" type="bus" begin="0.00" end="3600.00" period="60" from="C5C4" to="C1C0"/>
+    <flow id="bf_2" type="bus" begin="180.00" end="3600.00" period="180" from="E0E1" to="E4E5"/>
+    <flow id="bf_3" type="bus" begin="180.00" end="3600.00" period="180" from="E5E4" to="E1E0"/>
+</routes>
