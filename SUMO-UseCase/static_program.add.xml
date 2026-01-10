@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-01-10T02:13:45.224592+01:00 by Eclipse SUMO netedit v1_25_0+0747-f63642a8a4b
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/sebastian/Sumo/MOCOM/Project/SUMO-UseCase/ff.net.xml"/>
+    </input>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</neteditConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    
+    <tlLogic id="C2" programID="static_program" type="static" offset="0">
+        <phase duration="39" state="GGGgrrrrGGGgrrrr"/>
+        <phase duration="3"  state="yyygrrrryyygrrrr"/>
+        <phase duration="6"  state="rrrGrrrrrrrGrrrr"/>
+        <phase duration="3"  state="rrryrrrrrrryrrrr"/>
+        <phase duration="28" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="3"  state="rrrryyygrrrryyyg"/>
+        <phase duration="6"  state="rrrrrrrGrrrrrrrG"/>
+        <phase duration="3"  state="rrrrrrryrrrrrrry"/>
+    </tlLogic>
+    <tlLogic id="D2" programID="static_program" type="static" offset="30">
+        <phase duration="40" state="GGgGGgrrrrrGGgGGgrrrrr"/>
+        <phase duration="3"  state="yyyyygrrrrryyyyygrrrrr"/>
+        <phase duration="7"  state="rrrrrGrrrrrrrrrrGrrrrr"/>
+        <phase duration="3"  state="rrrrryrrrrrrrrrryrrrrr"/>
+        <phase duration="25" state="rrrrrrGGGGgrrrrrrGGGGg"/>
+        <phase duration="3"  state="rrrrrryyyygrrrrrryyyyg"/>
+        <phase duration="7"  state="rrrrrrrrrrGrrrrrrrrrrG"/>
+        <phase duration="3"  state="rrrrrrrrrryrrrrrrrrrry"/>
+    </tlLogic>
+    <tlLogic id="D3" programID="static_program" type="static" offset="0">
+        <phase duration="40" state="GGgGGgrrrrrGGgGGgrrrrr"/>
+        <phase duration="3"  state="yyyyygrrrrryyyyygrrrrr"/>
+        <phase duration="7"  state="rrrrrGrrrrrrrrrrGrrrrr"/>
+        <phase duration="3"  state="rrrrryrrrrrrrrrryrrrrr"/>
+        <phase duration="25" state="rrrrrrGGGGgrrrrrrGGGGg"/>
+        <phase duration="3"  state="rrrrrryyyygrrrrrryyyyg"/>
+        <phase duration="7"  state="rrrrrrrrrrGrrrrrrrrrrG"/>
+        <phase duration="3"  state="rrrrrrrrrryrrrrrrrrrry"/>
+    </tlLogic>
+    
+</additional>
