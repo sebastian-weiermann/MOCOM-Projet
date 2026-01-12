@@ -56,7 +56,7 @@ measurement_time = 3600  # total simulation time
 # Start SUMO with configuration
 sumoBinary = "sumo"  # or "sumo" for command lin
 sumoCmd = [sumoBinary, "-c", "ff_heterogeneous.sumocfg",
-           "--additional-files", "ff_bus.rou.xml, ff_bicycle.rou.xml, static_program.add.xml, detectors.add.xml",
+           "--additional-files", "ff_bus.rou.xml, ff_bicycle.rou.xml, detectors.add.xml",
            "--emission-output", "emissions.xml"]
 
 traci.start(sumoCmd)
@@ -325,6 +325,6 @@ else:
     }
 
 # Save KPIs
-with open('kpis_subsection.json', 'w') as jf:
+with open('kpis_subsection_original.json', 'w') as jf:
     json.dump(kpis, jf, indent=2)
-print('Saved KPIs to kpis_subsection.json')
+print('Saved KPIs to kpis_subsection_original.json')
