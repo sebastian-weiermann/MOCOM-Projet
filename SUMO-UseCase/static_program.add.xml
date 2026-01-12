@@ -31,17 +31,17 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     
-    <tlLogic id="C2" programID="static_program" type="static" offset="0">
-        <phase duration="39" state="GGGgrrrrGGGgrrrr"/>
+    <tlLogic id="C2" programID="static_program" type="static" offset="15">
+        <phase duration="40" state="GGGgrrrrGGGgrrrr"/>
         <phase duration="3"  state="yyygrrrryyygrrrr"/>
-        <phase duration="6"  state="rrrGrrrrrrrGrrrr"/>
+        <phase duration="7"  state="rrrGrrrrrrrGrrrr"/>
         <phase duration="3"  state="rrryrrrrrrryrrrr"/>
-        <phase duration="28" state="rrrrGGGgrrrrGGGg"/>
+        <phase duration="25" state="rrrrGGGgrrrrGGGg"/>
         <phase duration="3"  state="rrrryyygrrrryyyg"/>
-        <phase duration="6"  state="rrrrrrrGrrrrrrrG"/>
+        <phase duration="7"  state="rrrrrrrGrrrrrrrG"/>
         <phase duration="3"  state="rrrrrrryrrrrrrry"/>
     </tlLogic>
-    <tlLogic id="D2" programID="static_program" type="static" offset="30">
+    <tlLogic id="D2" programID="static_program" type="static" offset="0">
         <phase duration="40" state="GGgGGgrrrrrGGgGGgrrrrr"/>
         <phase duration="3"  state="yyyyygrrrrryyyyygrrrrr"/>
         <phase duration="7"  state="rrrrrGrrrrrrrrrrGrrrrr"/>
@@ -51,7 +51,7 @@
         <phase duration="7"  state="rrrrrrrrrrGrrrrrrrrrrG"/>
         <phase duration="3"  state="rrrrrrrrrryrrrrrrrrrry"/>
     </tlLogic>
-    <tlLogic id="D3" programID="static_program" type="static" offset="0">
+    <tlLogic id="D3" programID="static_program" type="static" offset="15">
         <phase duration="40" state="GGgGGgrrrrrGGgGGgrrrrr"/>
         <phase duration="3"  state="yyyyygrrrrryyyyygrrrrr"/>
         <phase duration="7"  state="rrrrrGrrrrrrrrrrGrrrrr"/>
