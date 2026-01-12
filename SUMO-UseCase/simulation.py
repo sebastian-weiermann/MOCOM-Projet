@@ -321,7 +321,7 @@ else:
     kpis['emissions'] = {
         'total_co2_g': None,
         'total_fuel_l': None,
-        'per_mode': {},
+        'per_mode': {}, 
     }
 
 # Save KPIs

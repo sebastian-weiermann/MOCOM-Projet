@@ -1,134 +1,134 @@
 {
   "global_travel_time": {
-    "count": 3922,
-    "mean_s": 134.41636919938807,
-    "std_s": 171.3499235337658,
-    "median_s": 105.0,
-    "p90_s": 218.0,
+    "count": 4494,
+    "mean_s": 128.0369381397419,
+    "std_s": 131.83771080824735,
+    "median_s": 102.0,
+    "p90_s": 245.0,
     "min_s": 12.0,
-    "max_s": 2300.0
+    "max_s": 1481.0
   },
   "per_mode_travel_time": {
     "passenger": {
-      "count": 2433,
-      "mean_s": 130.56678997122893,
-      "std_s": 211.45067742480086,
-      "median_s": 65.0,
-      "p90_s": 259.0,
+      "count": 2904,
+      "mean_s": 127.76825068870524,
+      "std_s": 158.80638305108002,
+      "median_s": 71.0,
+      "p90_s": 311.0,
       "min_s": 12.0,
-      "max_s": 2300.0
+      "max_s": 1481.0
     },
     "bus": {
-      "count": 85,
-      "mean_s": 44.694117647058825,
-      "std_s": 37.33537150475302,
-      "median_s": 39.0,
-      "p90_s": 62.800000000000026,
+      "count": 91,
+      "mean_s": 69.0989010989011,
+      "std_s": 98.77892453787068,
+      "median_s": 35.0,
+      "p90_s": 153.0,
       "min_s": 12.0,
-      "max_s": 238.0
+      "max_s": 666.0
     },
     "bicycle": {
-      "count": 1404,
-      "mean_s": 146.51923076923077,
-      "std_s": 61.58969833274738,
-      "median_s": 131.0,
-      "p90_s": 193.70000000000005,
-      "min_s": 67.0,
-      "max_s": 1125.0
+      "count": 1499,
+      "mean_s": 132.13542361574383,
+      "std_s": 49.30667742097616,
+      "median_s": 119.0,
+      "p90_s": 180.20000000000005,
+      "min_s": 56.0,
+      "max_s": 504.0
     }
   },
   "global_waiting_time": {
-    "count": 3922,
-    "total_s": 284198.0,
-    "mean_s": 72.46251912289648,
-    "median_s": 41.0,
-    "p90_s": 132.0,
+    "count": 4494,
+    "total_s": 315314.0,
+    "mean_s": 70.16332888295506,
+    "median_s": 38.0,
+    "p90_s": 166.0,
     "min_s": 0.0,
-    "max_s": 2141.0
+    "max_s": 1015.0
   },
   "per_mode_waiting_time": {
     "passenger": {
-      "total_s": 203931.0,
-      "count": 2433,
-      "mean_s": 83.81874229346487,
-      "median_s": 39.0,
-      "p90_s": 187.0,
+      "total_s": 243414.0,
+      "count": 2904,
+      "mean_s": 83.8202479338843,
+      "median_s": 42.0,
+      "p90_s": 228.70000000000027,
       "min_s": 0.0,
-      "max_s": 2141.0
+      "max_s": 1015.0
     },
     "bus": {
-      "total_s": 1802.0,
-      "count": 85,
-      "mean_s": 21.2,
-      "median_s": 15.0,
-      "p90_s": 40.0,
+      "total_s": 3948.0,
+      "count": 91,
+      "mean_s": 43.38461538461539,
+      "median_s": 10.0,
+      "p90_s": 96.0,
       "min_s": 0.0,
-      "max_s": 192.0
+      "max_s": 616.0
     },
     "bicycle": {
-      "total_s": 78465.0,
-      "count": 1404,
-      "mean_s": 55.886752136752136,
-      "median_s": 44.0,
-      "p90_s": 93.0,
+      "total_s": 67952.0,
+      "count": 1499,
+      "mean_s": 45.33155436957972,
+      "median_s": 36.0,
+      "p90_s": 86.0,
       "min_s": 0.0,
-      "max_s": 1003.0
+      "max_s": 393.0
     }
   },
   "throughput": {
-    "total_count": 3922,
-    "total_vph": 4034.057142857143,
+    "total_count": 4494,
+    "total_vph": 4622.4,
     "per_mode": {
       "passenger": {
-        "count": 2433,
-        "vph": 2502.5142857142855
+        "count": 2904,
+        "vph": 2986.9714285714285
       },
       "bus": {
-        "count": 85,
-        "vph": 87.42857142857143
+        "count": 91,
+        "vph": 93.6
       },
       "bicycle": {
-        "count": 1404,
-        "vph": 1444.1142857142856
+        "count": 1499,
+        "vph": 1541.8285714285714
       }
     }
   },
   "stops": {
-    "stopped_vehicles": 3534,
-    "stop_rate_fraction": 0.9010708822029577,
+    "stopped_vehicles": 4043,
+    "stop_rate_fraction": 0.8996439697374277,
     "per_mode": {
       "passenger": {
-        "stopped_count": 2082,
-        "stopped_fraction": 0.8557336621454994
+        "stopped_count": 2506,
+        "stopped_fraction": 0.8629476584022039
       },
       "bicycle": {
-        "stopped_count": 1391,
-        "stopped_fraction": 0.9907407407407407
+        "stopped_count": 1478,
+        "stopped_fraction": 0.9859906604402935
       },
       "bus": {
-        "stopped_count": 61,
-        "stopped_fraction": 0.7176470588235294
+        "stopped_count": 59,
+        "stopped_fraction": 0.6483516483516484
       }
     }
   },
   "emissions": {
-    "total_co2_g": 6574867.260000004,
-    "total_fuel_l": 2128503.8400000175,
+    "total_co2_g": 8209765.130000008,
+    "total_fuel_l": 2657916.7400000175,
     "per_mode": {
       "bicycle": {
         "co2": 0.0,
         "fuel": 0.0,
-        "count": 1404
+        "count": 1499
       },
       "passenger": {
-        "co2": 5518464.3999999985,
-        "fuel": 1789016.120000013,
-        "count": 2260
+        "co2": 6941281.02,
+        "fuel": 2250271.4300000165,
+        "count": 2733
       },
       "bus": {
-        "co2": 1056402.86,
-        "fuel": 339487.7200000001,
-        "count": 85
+        "co2": 1268484.11,
+        "fuel": 407645.31000000006,
+        "count": 91
       }
     }
   }
