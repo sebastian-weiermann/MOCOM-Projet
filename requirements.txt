@@ -1,1 +1,10 @@
 traci
+matplotlib
+numpy
+pandas
+sympy
+pillow
+networkx
+keyboard
+torch
+torchvision
