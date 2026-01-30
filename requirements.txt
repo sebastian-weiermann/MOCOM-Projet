@@ -2,6 +2,7 @@ traci
 matplotlib
 numpy
 pandas
+seaborn
 sympy
 pillow
 networkx
