@@ -278,7 +278,7 @@ def groupe04():
 sumoBinary = "sumo-gui"  # or "sumo" for command line
 sumoCmd = [sumoBinary, "-c", "ff_heterogeneous.sumocfg",
            "--additional-files", "detectors.add.xml",
-           "--emission-output", "emissions.xml"]
+           "--emission-output", "emissions_rl.xml"]
 
 traci.start(sumoCmd)
 
@@ -292,7 +292,14 @@ if not RL_STATE.get("initialized", False):
 reset_episode_state()
 
 # KPI collector instance
-collector = KpiCollector(entry_detectors, exit_detectors, warmup=warmup, measurement_time=measurement_time, stop_speed=0.1)
+collector = KpiCollector(
+    entry_detectors,
+    exit_detectors,
+    warmup=warmup,
+    measurement_time=measurement_time,
+    stop_speed=0.1,
+    emissions_file="emissions_rl.xml",
+)
 
 # Online learning tracking
 learning_metrics = {
