@@ -6,7 +6,8 @@
     "median_s": 88.0,
     "p90_s": 275.0,
     "min_s": 12.0,
-    "max_s": 2006.0
+    "max_s": 2006.0,
+    "mean_s_per_person": 118.42651376655034
   },
   "per_mode_travel_time": {
     "bus": {
@@ -44,7 +45,8 @@
     "median_s": 31.0,
     "p90_s": 172.0,
     "min_s": 0.0,
-    "max_s": 1824.0
+    "max_s": 1824.0,
+    "mean_s_per_person": 69.05969198382361
   },
   "per_mode_waiting_time": {
     "bus": {
@@ -130,6 +132,8 @@
         "fuel": 319209.47000000003,
         "count": 79
       }
-    }
+    },
+    "total_co2_g_per_person": 938.3442634757064,
+    "total_fuel_l_per_person": 303.8105035732104
   }
 }
