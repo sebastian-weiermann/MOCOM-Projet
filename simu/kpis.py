@@ -8,12 +8,13 @@ from collections import defaultdict
 
 
 class KpiCollector:
-    def __init__(self, entry_detectors, exit_detectors, warmup=100, measurement_time=3600, stop_speed=0.1):
+    def __init__(self, entry_detectors, exit_detectors, warmup=100, measurement_time=3600, stop_speed=0.1, emissions_file='emissions.xml'):
         self.entry_detectors = list(entry_detectors)
         self.exit_detectors = list(exit_detectors)
         self.warmup = warmup
         self.measurement_time = measurement_time
         self.stop_speed = stop_speed
+        self.emissions_file = emissions_file
 
         # KPI containers (internal state)
         self.veh_entry_time = {}      # vehID -> (entry timestamp, vehicleType)
@@ -205,14 +206,14 @@ class KpiCollector:
             'per_mode': stopped_mode_stats,
         }
 
-        # parse emissions.xml (if present) and sum emissions for measured vehicles
+        # parse emissions file (if present) and sum emissions for measured vehicles
         total_co2 = None
         total_fuel = None
         per_mode_emissions = {}
-        if os.path.exists('emissions.xml'):
+        if os.path.exists(self.emissions_file):
             veh_last = {}
             try:
-                tree = ET.parse('emissions.xml')
+                tree = ET.parse(self.emissions_file)
                 root = tree.getroot()
                 for ts in root.findall('timestep'):
                     for veh in ts.findall('vehicle'):
